@@ -1,0 +1,14 @@
+Source: vertex-icons
+Section: utils
+Priority: extra
+Maintainer: Rik Shaw <rikshaw76@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.5
+Homepage: https://github.com/horst3180/Vertex-icons
+
+Package: vertex-icons
+Architecture: all
+Depends: moka-icon-theme, ${shlibs:Depends}, ${misc:Depends}
+Description: Vertex Icons Packaged for Ubuntu PPA
+ Thanks to horst3180 for his great icon theme.  Original source found here:
+ https://github.com/horst3180/Vertex-icons

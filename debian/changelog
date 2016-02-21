@@ -1,3 +1,12 @@
+vertex-icons (0.9.0) xenial; urgency=medium
+
+  * remove postinst
+  * add actions/32/lock.svg (hack: actually a png from vivacious-colors)
+  * change system-log-out.svg and system-shutdown.svg to vivacious-colors
+    icons (hack: actually pngs)
+
+ -- Rik Shaw <rikshaw76@gmail.com>  Sun, 21 Feb 2016 15:08:33 +0300
+
 vertex-icons (0.1.0) xenial; urgency=medium
 
   * initial commit

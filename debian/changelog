@@ -1,3 +1,17 @@
+vertex-icons (0.9.1) xenial; urgency=medium
+
+  * actions 16,22,24,32 icons updated from vivacious-icons-dark .png's:
+    - lock.svg
+    - system-log-out.svg
+    - system-shutdown.svg
+    - system-shutdown-panel.svg
+    This is done to better support a dark panel / Cinnamon menu.  Hack
+    to use .png files named as .svg is for easy future reversion as
+    vertex uses svg files and didn't want to re-work all the symlinks.
+  * ubuntu-mono-dark used instead of Moka as linked theme for app icons
+
+ -- Rik Shaw <rikshaw76@gmail.com>  Tue, 23 Feb 2016 10:48:01 +0300
+
 vertex-icons (0.9.0) xenial; urgency=medium
 
   * remove postinst
